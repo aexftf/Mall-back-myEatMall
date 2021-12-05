@@ -6,8 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Mall-back-myEatMall" />
+        <module name="myEatMall-Api" />
+        <module name="myEatMall-service" />
+        <module name="myEatMall-pojo" />
+        <module name="myEatMall-Mapper" />
+        <module name="myEatMall-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mapper" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
